@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  min-height: 44px;
+}
+header nav {
+  max-width: 1040px;
+  min-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: normal;
+}
+header nav a img {
+  max-width: 13px;
+  max-height: 16px;
+}
+
+article .texttop {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.promo {
+  margin-top: 24px;
+}
+.promo .cont {
+  max-width: 938px;
+  border: solid 0px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+main .container {
+  margin-top: 63px;
+}
+main .container .sect {
+  max-width: 730px;
+  min-height: 300px;
+  margin: 0 auto;
+}
+main .container .sect .atwork {
+  display: flex;
+}
+main .container .sect .atwork .macprice {
+  margin-left: 76px;
+  margin-top: 40px;
+}
+main .container .sect .atwork .macprice h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+main .container .sect .atwork .macprice a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  color: #0071E3;
+}
+main .container .sect .atwork .macprice h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 48px;
+}
+main .memorycolor .container .componets {
+  max-width: 400px;
+  margin: 0 auto;
+}
+main .memorycolor .container .componets .color {
+  display: flex;
+  gap: 20px;
+}
+main .memorycolor .container .componets .color button {
+  width: 170px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #CFE7FF;
+  border: solid 0;
+  font-size: 18px;
+  color: #797979;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+main .memorycolor .container .componets .color .active {
+  background: #0071E3;
+  color: #FFFFFF;
+}
+main .memorycolor .container .componets .memory {
+  row-gap: 10px;
+}
+main .memorycolor .container .componets .memory button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 7px;
+  width: 360px;
+  height: 67px;
+  border-radius: 15px;
+  background-color: white;
+  border: solid 3px #CFE7FF;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+}
+main .memorycolor .container .componets .memory button h3 {
+  margin-left: 20px;
+}/*# sourceMappingURL=sassmac.css.map */
